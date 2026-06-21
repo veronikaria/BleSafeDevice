@@ -9216,7 +9216,7 @@
 				)
 			)
 		)
-		(property "Value" "LED_ARGB"
+		(property "Value" "LRTBR48G-P9Q7-1"
 			(at 161.29 27.94 0)
 			(effects
 				(font
@@ -9224,7 +9224,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_RGB_Wuerth-PLCC4_3.2x2.8mm_150141M173100"
+		(property "Footprint" "SafeGuardPing_Local:LED_RGB_amsOSRAM_LRTBR48G"
 			(at 161.29 40.64 0)
 			(effects
 				(font
@@ -9233,7 +9233,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.alldatasheet.com/datasheet-pdf/pdf/1047991/OSRAM/LRTB-R48G.html"
 			(at 161.29 40.64 0)
 			(effects
 				(font
@@ -9242,7 +9242,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RGB LED, anode/red/green/blue"
+		(property "Description" "ams OSRAM LRTB R48G RGB LED, 1.0 mm x 1.0 mm, common anode; pin 1 A, pin 2 red K, pin 3 green K, pin 4 blue K"
 			(at 161.29 39.37 0)
 			(effects
 				(font
@@ -9251,7 +9251,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "LRTBR48G-P9Q7-1 + R7S5-26 + NP-68-R33-ZB"
+		(property "MPN" "LRTBR48G-P9Q7-1+R7S5-26+NP-68"
 			(at 161.29 39.37 0)
 			(effects
 				(font
