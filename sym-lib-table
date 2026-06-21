@@ -3,4 +3,5 @@
   (lib (name "3002")(type "KiCad")(uri "C:/Users/veron/Documents/MyProjects/BLE-Safe-Device/KiCad-Symbols/Keystone-3002/3002.kicad_sym")(options "")(descr ""))
   (lib (name "DA14531MOD-00F01002")(type "KiCad")(uri "C:/Users/veron/Documents/MyProjects/BLE-Safe-Device/KiCad-Symbols/DA14531MOD/DA14531MOD-00F01002.kicad_sym")(options "")(descr ""))
   (lib (name "BAT54")(type "KiCad")(uri "C:/Users/veron/Documents/MyProjects/BLE-Safe-Device/KiCad-Symbols/BAT54/BAT54.kicad_sym")(options "")(descr ""))
+  (lib (name "SafeGuardPing_Local")(type "KiCad")(uri "${KIPRJMOD}/SafeGuardPing_Local.kicad_sym")(options "")(descr ""))
 )

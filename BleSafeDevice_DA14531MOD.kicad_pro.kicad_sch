@@ -5,7 +5,7 @@
 	(uuid "041b0d14-102a-4b5a-aabe-10d2feba1841")
 	(paper "A4")
 	(lib_symbols
-		(symbol "2025-08-04_20-25-58:1825910-6"
+		(symbol "SafeGuardPing_Local:PTS526SK15SMTR2_LFS"
 			(pin_names
 				(offset 0.254)
 			)
@@ -20,7 +20,7 @@
 					)
 				)
 			)
-			(property "Value" "1825910-6"
+			(property "Value" "PTS526SK15SMTR2 LFS"
 				(at 20.32 7.62 0)
 				(effects
 					(font
@@ -28,7 +28,7 @@
 					)
 				)
 			)
-			(property "Footprint" "SW4_1825910-B_TEC"
+			(property "Footprint" "SafeGuardPing_Local:SW_Push_1P1T_NO_CK_PTS526SK15SMTR2_LFS"
 				(at 0 0 0)
 				(effects
 					(font
@@ -38,7 +38,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "1825910-6"
+			(property "Datasheet" "https://www.littelfuse.com/assetdocs/littelfuse-ck-tactile-pts526-series-datasheet?assetguid=bb56c1b4-71ca-4262-9bd7-cf3e3c572bb3"
 				(at 0 0 0)
 				(effects
 					(font
@@ -48,7 +48,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" ""
+			(property "Description" "C&K/Littelfuse PTS526 Series microminiature SMT top-actuated tactile switch, 1.5 mm height, 250 gf nominal, SPST-NO"
 				(at 0 0 0)
 				(effects
 					(font
@@ -65,7 +65,7 @@
 					)
 				)
 			)
-			(property "ki_keywords" "1825910-6"
+			(property "ki_keywords" "PTS526 tactile switch SPST-NO pushbutton"
 				(at 0 0 0)
 				(effects
 					(font
@@ -74,7 +74,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "SW4_1825910-B_TEC"
+			(property "ki_fp_filters" "SW_Push_1P1T_NO_CK_PTS526SK15SMTR2_LFS"
 				(at 0 0 0)
 				(effects
 					(font
@@ -83,7 +83,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "1825910-6_0_1"
+			(symbol "PTS526SK15SMTR2_LFS_0_1"
 				(polyline
 					(pts
 						(xy 7.62 5.08) (xy 7.62 -12.7)
@@ -5285,6 +5285,26 @@
 	)
 	(wire
 		(pts
+			(xy 140.97 113.03) (xy 156.21 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aba57d2e-adb2-4df5-83d4-dad91724692c")
+	)
+	(wire
+		(pts
+			(xy 156.21 113.03) (xy 156.21 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e39f2f2-b30f-4d6e-b2de-631419bd2377")
+	)
+	(wire
+		(pts
 			(xy 125.73 82.55) (xy 130.81 82.55)
 		)
 		(stroke
@@ -7256,9 +7276,9 @@
 		(at 148.59 115.57 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
+		(in_bom no)
+		(on_board no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "6a4af8c9-8429-4522-b8ab-a3db610dce3a")
 		(property "Reference" "S1"
@@ -7269,7 +7289,7 @@
 				)
 			)
 		)
-		(property "Value" "MSK12C02"
+		(property "Value" "MSK12C02 (DNP - bypassed for prototype v1)"
 			(at 148.59 110.49 0)
 			(effects
 				(font
@@ -7414,7 +7434,7 @@
 		)
 	)
 	(symbol
-		(lib_id "2025-08-04_20-25-58:1825910-6")
+		(lib_id "SafeGuardPing_Local:PTS526SK15SMTR2_LFS")
 		(at 83.82 146.05 0)
 		(mirror y)
 		(unit 1)
@@ -7432,7 +7452,7 @@
 				)
 			)
 		)
-		(property "Value" "1825910-6"
+		(property "Value" "PTS526SK15SMTR2 LFS"
 			(at 63.5 138.43 0)
 			(effects
 				(font
@@ -7440,7 +7460,7 @@
 				)
 			)
 		)
-		(property "Footprint" "1825910-6:SW4_1825910-B_TEC"
+		(property "Footprint" "SafeGuardPing_Local:SW_Push_1P1T_NO_CK_PTS526SK15SMTR2_LFS"
 			(at 83.82 146.05 0)
 			(effects
 				(font
@@ -7450,7 +7470,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "1825910-6"
+		(property "Datasheet" "https://www.littelfuse.com/assetdocs/littelfuse-ck-tactile-pts526-series-datasheet?assetguid=bb56c1b4-71ca-4262-9bd7-cf3e3c572bb3"
 			(at 83.82 146.05 0)
 			(effects
 				(font
@@ -7460,7 +7480,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "C&K/Littelfuse PTS526 Series microminiature SMT top-actuated tactile switch, 1.5 mm height, 250 gf nominal, SPST-NO"
+			(at 83.82 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "PTS526SK15SMTR2 LFS"
 			(at 83.82 146.05 0)
 			(effects
 				(font
@@ -8525,7 +8554,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "47uF 6.3V"
+		(property "Value" "100uF 6.3V"
 			(at 198.12 100.3299 90)
 			(effects
 				(font
