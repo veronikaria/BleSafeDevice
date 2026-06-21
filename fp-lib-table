@@ -1,0 +1,5 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "myparts")(type "KiCad")(uri "${KIPRJMOD}/../../../KiCad-Symbols/myparts.pretty")(options "")(descr ""))
+  (lib (name "Keystone-3002")(type "KiCad")(uri "${KIPRJMOD}/../../../KiCad-Symbols/Keystone-3002")(options "")(descr ""))
+)
