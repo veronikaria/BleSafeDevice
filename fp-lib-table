@@ -2,4 +2,5 @@
   (version 7)
   (lib (name "myparts")(type "KiCad")(uri "${KIPRJMOD}/../../../KiCad-Symbols/myparts.pretty")(options "")(descr ""))
   (lib (name "Keystone-3002")(type "KiCad")(uri "${KIPRJMOD}/../../../KiCad-Symbols/Keystone-3002")(options "")(descr ""))
+  (lib (name "SafeGuardPing_Local")(type "KiCad")(uri "${KIPRJMOD}/SafeGuardPing_Local.pretty")(options "")(descr ""))
 )
