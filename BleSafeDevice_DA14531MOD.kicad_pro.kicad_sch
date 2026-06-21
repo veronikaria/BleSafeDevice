@@ -4760,6 +4760,14 @@
 		(uuid "cd61c026-857d-4798-81c2-30e9251e6524")
 	)
 	(no_connect
+		(at 140.97 113.03)
+		(uuid "9123bdc3-d958-45af-9ad0-ccf6c6bf7cf1")
+	)
+	(no_connect
+		(at 156.21 115.57)
+		(uuid "c593e943-aab7-4684-bf7d-75da4c3fb281")
+	)
+	(no_connect
 		(at 83.82 101.6)
 		(uuid "d0acc97f-b244-4cbc-901f-a30748c14e9d")
 	)
@@ -4812,16 +4820,6 @@
 			(type default)
 		)
 		(uuid "18ad6f5c-c6db-4621-904b-433c2ff6c334")
-	)
-	(wire
-		(pts
-			(xy 156.21 115.57) (xy 171.45 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "18f8be7a-c755-4cdc-9c5b-4110f9cd002f")
 	)
 	(wire
 		(pts
@@ -4882,16 +4880,6 @@
 			(type default)
 		)
 		(uuid "269a21d1-f6a9-47d5-9e2f-ad615e8f6107")
-	)
-	(wire
-		(pts
-			(xy 181.61 118.11) (xy 194.31 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2b2ce3d9-3f50-41f4-8948-e1d959e60518")
 	)
 	(wire
 		(pts
@@ -5275,36 +5263,6 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 113.03) (xy 140.97 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d021c91c-950f-4ca1-b9da-f17d3918a70e")
-	)
-	(wire
-		(pts
-			(xy 140.97 113.03) (xy 156.21 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "aba57d2e-adb2-4df5-83d4-dad91724692c")
-	)
-	(wire
-		(pts
-			(xy 156.21 113.03) (xy 156.21 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4e39f2f2-b30f-4d6e-b2de-631419bd2377")
-	)
-	(wire
-		(pts
 			(xy 125.73 82.55) (xy 130.81 82.55)
 		)
 		(stroke
@@ -5352,16 +5310,6 @@
 			(type default)
 		)
 		(uuid "e9a1d8d6-1c7f-4b87-98db-20f5c7eacf8e")
-	)
-	(wire
-		(pts
-			(xy 137.16 82.55) (xy 137.16 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eb3cb252-701f-49dd-b437-621c369ad60f")
 	)
 	(wire
 		(pts
@@ -5526,6 +5474,28 @@
 		(uuid "07ae73ed-cfe9-4c74-b78e-4f6876ab866a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 130.2243 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "VBAT"
+		(shape bidirectional)
+		(at 252.73 38.1 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify right)
+		)
+		(uuid "f4c2fc4c-bb38-4df4-a5bf-b167c0ca2bf7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 245.7943 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7743,7 +7713,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "EXT_PWR"
+		(property "Value" "CURRENT_MEAS_PADS"
 			(at 260.35 40.6399 0)
 			(effects
 				(font
@@ -7812,7 +7782,7 @@
 				)
 			)
 		)
-		(property "Value" "JP_EXT_TO_VCC"
+		(property "Value" "CURRENT_MEAS_JUMPER"
 			(at 237.49 31.75 0)
 			(effects
 				(font
@@ -8611,218 +8581,6 @@
 			(project "BleSafeDevice"
 				(path "/041b0d14-102a-4b5a-aabe-10d2feba1841"
 					(reference "C1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "BAT54:BAT54")
-		(at 176.53 118.11 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b19c18f8-ccb3-46bc-adac-52f655146a12")
-		(property "Reference" "D2"
-			(at 176.53 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "BAT54"
-			(at 176.53 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "myparts:SOT95P240X120-3N"
-			(at 176.53 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 176.53 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 176.53 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" "Diotec"
-			(at 176.53 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "1.2mm"
-			(at 176.53 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "CREATOR" "DIZAR"
-			(at 176.53 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at 176.53 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "SOT-23 Diotec"
-			(at 176.53 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/BAT54/Diotec/view-part/?ref=eda"
-			(at 176.53 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" "IPC-7351B"
-			(at 176.53 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" "2025-04-24"
-			(at 176.53 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "VERIFIER" ""
-			(at 176.53 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/BAT54/Diotec/view-part/?ref=snap"
-			(at 176.53 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "BAT54"
-			(at 176.53 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "Schottky, SOT-23, 30V, 0.2A, 150°C"
-			(at 176.53 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 176.53 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "Diotec"
-			(at 176.53 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "799f0a67-2d75-4318-96db-4f2348556571")
-		)
-		(pin "2"
-			(uuid "8c9db93f-57e4-4da1-a35d-7b476077d280")
-		)
-		(pin "3"
-			(uuid "96387895-55fc-4b7b-b617-65588a88c92f")
-		)
-		(instances
-			(project ""
-				(path "/041b0d14-102a-4b5a-aabe-10d2feba1841"
-					(reference "D2")
 					(unit 1)
 				)
 			)
