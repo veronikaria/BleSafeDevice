@@ -119,6 +119,10 @@
 	(net 10 "unconnected-(U4-P0_0{slash}RST-PadJ12)")
 	(net 11 "unconnected-(U4-P0_5-PadJ14)")
 	(net 12 "unconnected-(U4-P0_11-PadJ8)")
+	(net 13 "unconnected-(D1-GK-Pad3)")
+	(net 14 "unconnected-(D1-BK-Pad4)")
+	(net 15 "unconnected-(U4-P0_6-PadJ5)")
+	(net 16 "unconnected-(U4-P0_7-PadJ13)")
 	(footprint "SafeGuardPing_Local:TP_1x02_1.27mm_Compact"
 		(layer "F.Cu")
 		(uuid "051572d0-3ae4-46d9-871c-bbfed6ec30dc")
@@ -947,6 +951,7 @@
 			(at -0.425 0.425)
 			(size 0.45 0.45)
 			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 13 "unconnected-(D1-GK-Pad3)")
 			(solder_mask_margin 0)
 			(solder_paste_margin -0.05)
 			(uuid "9d5bdba8-78db-403e-a928-0171b4a1d3e0")
@@ -955,6 +960,7 @@
 			(at -0.425 -0.425)
 			(size 0.45 0.45)
 			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 14 "unconnected-(D1-BK-Pad4)")
 			(solder_mask_margin 0)
 			(solder_paste_margin -0.05)
 			(uuid "d9b2fe9b-9da7-4482-9fbe-668de4f509a3")
@@ -4811,6 +4817,7 @@
 			(at -5.75 5 180)
 			(size 0.1 0.1)
 			(layers "F.Cu")
+			(net 15 "unconnected-(U4-P0_6-PadJ5)")
 			(pinfunction "P0_6")
 			(pintype "bidirectional")
 			(options
@@ -5067,6 +5074,7 @@
 			(at 5.75 3.5 180)
 			(size 0.1 0.1)
 			(layers "F.Cu")
+			(net 16 "unconnected-(U4-P0_7-PadJ13)")
 			(pinfunction "P0_7")
 			(pintype "bidirectional")
 			(options
