@@ -5,6 +5,188 @@
 	(uuid "041b0d14-102a-4b5a-aabe-10d2feba1841")
 	(paper "A4")
 	(lib_symbols
+			(symbol "SafeGuardPing_Local:LED_Red_0603_Generic"
+				(pin_names
+					(offset 0.254)
+				)
+				(exclude_from_sim no)
+				(in_bom yes)
+				(on_board yes)
+				(property "Reference" "D"
+					(at 0 3.81 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(property "Value" "Red LED 0603"
+					(at 0 -3.81 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(property "Footprint" "SafeGuardPing_Local:LED_0603_1608Metric_Red_Generic"
+					(at 0 -6.35 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+						(hide yes)
+					)
+				)
+				(property "Datasheet" "~"
+					(at 0 -8.89 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+						(hide yes)
+					)
+				)
+				(property "Description" "Generic red LED, 0603 / 1608 metric, for prototype status indicator"
+					(at 0 -11.43 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+						(hide yes)
+					)
+				)
+				(property "ki_keywords" "LED red 0603 1608"
+					(at 0 -13.97 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+						(hide yes)
+					)
+				)
+				(property "ki_fp_filters" "LED_0603_1608Metric*"
+					(at 0 -16.51 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+						(hide yes)
+					)
+				)
+				(symbol "LED_Red_0603_Generic_0_1"
+					(polyline
+						(pts
+							(xy -1.27 -2.54) (xy 1.27 -2.54) (xy 0 0) (xy -1.27 -2.54)
+						)
+						(stroke
+							(width 0.254)
+							(type default)
+						)
+						(fill
+							(type none)
+						)
+					)
+					(polyline
+						(pts
+							(xy -1.27 0) (xy 1.27 0)
+						)
+						(stroke
+							(width 0.254)
+							(type default)
+						)
+						(fill
+							(type none)
+						)
+					)
+					(polyline
+						(pts
+							(xy 1.905 -0.635) (xy 3.175 -1.905)
+						)
+						(stroke
+							(width 0.1524)
+							(type default)
+						)
+						(fill
+							(type none)
+						)
+					)
+					(polyline
+						(pts
+							(xy 2.54 -1.905) (xy 3.175 -1.905) (xy 3.175 -1.27)
+						)
+						(stroke
+							(width 0.1524)
+							(type default)
+						)
+						(fill
+							(type none)
+						)
+					)
+					(polyline
+						(pts
+							(xy 2.54 0) (xy 3.81 -1.27)
+						)
+						(stroke
+							(width 0.1524)
+							(type default)
+						)
+						(fill
+							(type none)
+						)
+					)
+					(polyline
+						(pts
+							(xy 3.175 -1.27) (xy 3.81 -1.27) (xy 3.81 -0.635)
+						)
+						(stroke
+							(width 0.1524)
+							(type default)
+						)
+						(fill
+							(type none)
+						)
+					)
+				)
+				(symbol "LED_Red_0603_Generic_1_1"
+					(pin passive line
+						(at -5.08 5.08 0)
+						(length 3.81)
+						(name "K"
+							(effects
+								(font
+									(size 1.27 1.27)
+								)
+							)
+						)
+						(number "1"
+							(effects
+								(font
+									(size 1.27 1.27)
+								)
+							)
+						)
+					)
+					(pin passive line
+						(at 5.08 0 180)
+						(length 3.81)
+						(name "A"
+							(effects
+								(font
+									(size 1.27 1.27)
+								)
+							)
+						)
+						(number "2"
+							(effects
+								(font
+									(size 1.27 1.27)
+								)
+							)
+						)
+					)
+				)
+				(embedded_fonts no)
+			)
 		(symbol "SafeGuardPing_Local:PTS526SK15SMTR2_LFS"
 			(pin_names
 				(offset 0.254)
@@ -4788,14 +4970,6 @@
 		(uuid "6c56f30e-7356-4b7f-a7fd-1791c3aa7b54")
 	)
 	(no_connect
-		(at 156.21 39.37)
-		(uuid "d7b2a373-719f-4b75-a0c6-e9f0c81549f7")
-	)
-	(no_connect
-		(at 156.21 44.45)
-		(uuid "b2dc704a-7111-459d-b6f5-4144e0162849")
-	)
-	(no_connect
 		(at 151.13 39.37)
 		(uuid "7fb765a9-9d86-482f-9b20-9ac29f93d5d8")
 	)
@@ -5521,7 +5695,7 @@
 				)
 			)
 		)
-		(property "Value" "1.2K"
+		(property "Value" "1k"
 			(at 147.32 33.02 90)
 			(effects
 				(font
@@ -5549,6 +5723,24 @@
 		)
 		(property "Description" "Resistor"
 			(at 147.32 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Generic"
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5588,7 +5780,7 @@
 				)
 			)
 		)
-		(property "Value" "0.1uF 25V"
+		(property "Value" "100nF 25V"
 			(at 67.564 37.084 90)
 			(effects
 				(font
@@ -5874,8 +6066,17 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CL05A104KA5NNNC"
+		(property "MPN" ""
 			(at 76.2 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Generic"
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7527,7 +7728,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "330K"
+		(property "Value" "330k"
 			(at 133.35 163.8299 0)
 			(effects
 				(font
@@ -7556,6 +7757,24 @@
 		)
 		(property "Description" "Resistor"
 			(at 135.89 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Generic"
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7652,7 +7871,7 @@
 		(at 257.81 38.1 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -7702,6 +7921,24 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "99da43b3-0c01-4da9-bf1d-ad219cb994d6")
 		)
@@ -7722,7 +7959,7 @@
 		(at 237.49 38.1 180)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -7763,6 +8000,24 @@
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 237.49 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8148,7 +8403,7 @@
 				)
 			)
 		)
-		(property "Value" "0.1uF 25V"
+		(property "Value" "100nF 25V"
 			(at 24.638 37.338 90)
 			(effects
 				(font
@@ -8434,8 +8689,17 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CL05A104KA5NNNC"
+		(property "MPN" ""
 			(at 33.02 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Generic"
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8743,7 +9007,7 @@
 		(at 209.55 34.29 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -8786,6 +9050,24 @@
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 209.55 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9136,6 +9418,24 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Generic"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ed40123a-de22-41f2-ad4d-78aba1a8ffa6")
 		)
@@ -9152,7 +9452,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED_ARGB")
+		(lib_id "SafeGuardPing_Local:LED_Red_0603_Generic")
 		(at 161.29 39.37 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9169,7 +9469,7 @@
 				)
 			)
 		)
-		(property "Value" "LRTBR48G-P9Q7-1"
+		(property "Value" "Red LED 0603"
 			(at 161.29 27.94 0)
 			(effects
 				(font
@@ -9177,7 +9477,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SafeGuardPing_Local:LED_RGB_amsOSRAM_LRTBR48G"
+		(property "Footprint" "SafeGuardPing_Local:LED_0603_1608Metric_Red_Generic"
 			(at 161.29 40.64 0)
 			(effects
 				(font
@@ -9186,7 +9486,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.alldatasheet.com/datasheet-pdf/pdf/1047991/OSRAM/LRTB-R48G.html"
+		(property "Datasheet" "~"
 			(at 161.29 40.64 0)
 			(effects
 				(font
@@ -9195,7 +9495,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "ams OSRAM LRTB R48G RGB LED, 1.0 mm x 1.0 mm, common anode; pin 1 A, pin 2 red K, pin 3 green K, pin 4 blue K"
+		(property "Description" "Generic red LED, 0603 / 1608 metric, prototype-v1 single red status LED"
 			(at 161.29 39.37 0)
 			(effects
 				(font
@@ -9204,7 +9504,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "LRTBR48G-P9Q7-1+R7S5-26+NP-68"
+		(property "MPN" ""
 			(at 161.29 39.37 0)
 			(effects
 				(font
@@ -9213,17 +9513,14 @@
 				(hide yes)
 			)
 		)
-		(pin "2"
-			(uuid "a844dec7-3f9a-44df-96c8-df9d4d34ffbb")
-		)
-		(pin "1"
-			(uuid "3748fdde-cc8b-4505-ba77-e68003d834ae")
-		)
-		(pin "3"
-			(uuid "7a41371e-e76e-4a5e-b66d-6b5c6c9321c2")
-		)
-		(pin "4"
-			(uuid "6b71b865-565d-426c-8ac1-538e57a325a3")
+		(property "Manufacturer" "Generic"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
 		(instances
 			(project ""
@@ -9456,7 +9753,7 @@
 				)
 			)
 		)
-		(property "Value" "0.1uF 25V"
+		(property "Value" "100nF 25V"
 			(at 45.72 37.338 90)
 			(effects
 				(font
@@ -9742,8 +10039,17 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CL05A104KA5NNNC"
+		(property "MPN" ""
 			(at 54.61 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Generic"
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
