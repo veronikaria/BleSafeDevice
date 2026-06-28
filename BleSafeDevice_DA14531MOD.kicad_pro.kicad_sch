@@ -4771,6 +4771,23 @@
 		(at 83.82 101.6)
 		(uuid "d0acc97f-b244-4cbc-901f-a30748c14e9d")
 	)
+	(no_connect
+		(at 93.98 91.44)
+		(uuid "70eb01da-f713-464b-8750-694d22c88f2b")
+	)
+	(no_connect
+		(at 93.98 93.98)
+		(uuid "5ddfc09a-2582-4838-ab30-41d387ca2d1a")
+	)
+	(no_connect
+		(at 137.16 39.37)
+		(uuid "1f0c1ebd-1232-4978-b720-ea95e6fc0eca")
+	)
+	(no_connect
+		(at 137.16 44.45)
+		(uuid "6c56f30e-7356-4b7f-a7fd-1791c3aa7b54")
+	)
+
 	(wire
 		(pts
 			(xy 43.18 149.86) (xy 36.83 149.86)
@@ -5391,16 +5408,7 @@
 		)
 		(uuid "3125ae88-f985-429f-85be-077e8fa7765a")
 	)
-	(label "LED_B"
-		(at 93.98 91.44 180)
-		(effects
-			(font
-				(size 1.016 1.016)
-			)
-			(justify right bottom)
-		)
-		(uuid "3eb097a5-99f2-4b2d-af47-fdcacd632122")
-	)
+
 	(label "LED_R"
 		(at 93.98 96.52 180)
 		(effects
@@ -5411,16 +5419,7 @@
 		)
 		(uuid "42abd3a4-d88d-4a66-bd58-b3b0d19bb3b6")
 	)
-	(label "LED_G"
-		(at 93.98 93.98 180)
-		(effects
-			(font
-				(size 1.016 1.016)
-			)
-			(justify right bottom)
-		)
-		(uuid "c04a9c5a-de81-4083-a29e-c58c94b6abd7")
-	)
+
 	(label "BTN_SW"
 		(at 93.98 99.06 180)
 		(effects
@@ -5505,50 +5504,8 @@
 			)
 		)
 	)
-	(global_label "LED_G"
-		(shape output)
-		(at 137.16 39.37 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.016 1.016)
-			)
-			(justify right)
-		)
-		(uuid "85f69826-8b62-4664-a2bb-543e12ce9581")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 130.2243 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "LED_B"
-		(shape output)
-		(at 137.16 44.45 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.016 1.016)
-			)
-			(justify right)
-		)
-		(uuid "91071dbf-7afa-40c1-a600-7306c7f19402")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 130.2243 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
+
+
 	(symbol
 		(lib_name "R_1")
 		(lib_id "Device:R")
@@ -6579,9 +6536,9 @@
 		(at 147.32 44.45 270)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
+		(in_bom no)
+		(on_board no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "3b8fcc4b-8a63-4a2e-84f0-9620fb639ceb")
 		(property "Reference" "R3"
@@ -7631,9 +7588,9 @@
 		(at 147.32 39.37 270)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
+		(in_bom no)
+		(on_board no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "759b9a76-e8a9-46ea-af2b-1bf8efdb843a")
 		(property "Reference" "R2"
