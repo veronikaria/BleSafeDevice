@@ -1,0 +1,39 @@
+** Drc report for BleSafeDevice_DA14531MOD.kicad_pro.kicad_pcb **
+** Created on 2026-06-27T23:32:48-0600 **
+
+** Found 8 DRC violations **
+[courtyards_overlap]: Courtyards overlap
+    Rule: board setup constraints courtyard; error
+    @(101.6000 mm, 118.6000 mm): Footprint D3
+    @(103.8000 mm, 118.6000 mm): Footprint R7
+[courtyards_overlap]: Courtyards overlap
+    Rule: board setup constraints courtyard; error
+    @(131.0000 mm, 110.7000 mm): Footprint C3
+    @(131.0000 mm, 113.4000 mm): Footprint C4
+[courtyards_overlap]: Courtyards overlap
+    Rule: board setup constraints courtyard; error
+    @(103.8000 mm, 118.6000 mm): Footprint R7
+    @(106.2000 mm, 121.0000 mm): Footprint SW1
+[courtyards_overlap]: Courtyards overlap
+    Rule: board setup constraints courtyard; error
+    @(103.8000 mm, 116.2000 mm): Footprint R8
+    @(101.6000 mm, 114.2000 mm): Footprint C8
+[courtyards_overlap]: Courtyards overlap
+    Rule: board setup constraints courtyard; error
+    @(101.6000 mm, 114.2000 mm): Footprint C8
+    @(103.8000 mm, 112.6000 mm): Footprint R1
+[lib_footprint_mismatch]: Footprint 'R_0603_1608Metric' does not match copy in library 'Resistor_SMD'.
+    Local override; warning
+    @(103.8000 mm, 118.6000 mm): Footprint R7
+[lib_footprint_mismatch]: Footprint 'R_0603_1608Metric' does not match copy in library 'Resistor_SMD'.
+    Local override; warning
+    @(103.8000 mm, 116.2000 mm): Footprint R8
+[lib_footprint_mismatch]: Footprint 'SW_Push_1P1T_NO_CK_PTS526SK15SMTR2_LFS' does not match copy in library 'SafeGuardPing_Local'.
+    Local override; warning
+    @(106.2000 mm, 121.0000 mm): Footprint SW1
+
+** Found 0 unconnected pads **
+
+** Found 0 Footprint errors **
+
+** End of Report **
