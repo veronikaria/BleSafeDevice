@@ -1,0 +1,19 @@
+** Drc report for BleSafeDevice_DA14531MOD.kicad_pro.kicad_pcb **
+** Created on 2026-06-28T15:28:41-0600 **
+
+** Found 3 DRC violations **
+[lib_footprint_mismatch]: Footprint 'R_0603_1608Metric' does not match copy in library 'Resistor_SMD'.
+    Local override; warning
+    @(103.8000 mm, 117.1000 mm): Footprint R7
+[lib_footprint_mismatch]: Footprint 'R_0603_1608Metric' does not match copy in library 'Resistor_SMD'.
+    Local override; warning
+    @(106.8000 mm, 115.0000 mm): Footprint R8
+[lib_footprint_mismatch]: Footprint 'SW_Push_1P1T_NO_CK_PTS526SK15SMTR2_LFS' does not match copy in library 'SafeGuardPing_Local'.
+    Local override; warning
+    @(106.2000 mm, 121.0000 mm): Footprint SW1
+
+** Found 0 unconnected pads **
+
+** Found 0 Footprint errors **
+
+** End of Report **

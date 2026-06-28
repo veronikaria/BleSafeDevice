@@ -5320,16 +5320,6 @@
 	)
 	(wire
 		(pts
-			(xy 242.57 38.1) (xy 252.73 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8fc4cebd-540b-4529-a09c-5d37da23c262")
-	)
-	(wire
-		(pts
 			(xy 135.89 149.86) (xy 135.89 158.75)
 		)
 		(stroke
@@ -5652,7 +5642,7 @@
 			)
 		)
 	)
-	(global_label "VBAT"
+	(global_label "VBAT_RAW"
 		(shape bidirectional)
 		(at 252.73 38.1 180)
 		(fields_autoplaced yes)
@@ -5673,6 +5663,96 @@
 				(hide yes)
 			)
 		)
+	)
+	(global_label "VBAT_SW"
+		(shape bidirectional)
+		(at 242.57 38.1 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify right)
+		)
+		(uuid "ab56e0cb-0c62-45d6-a284-d49c6daf95b5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 235.6343 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 140.97 118.11) (xy 137.16 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5dc71ad1-dbbb-482f-958a-ccf1664508aa")
+	)
+	(wire
+		(pts
+			(xy 156.21 115.57) (xy 160.02 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ea110c2-f321-45e0-ab20-d2a51aa6cf1")
+	)
+	(global_label "VBAT_SW"
+		(shape bidirectional)
+		(at 137.16 118.11 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify right)
+		)
+		(uuid "e8aaec94-35d9-497d-a73d-6d30dc98899f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 130.2243 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "VBAT_RAW"
+		(shape bidirectional)
+		(at 160.02 115.57 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left)
+		)
+		(uuid "d6ebed77-f14b-4b07-986a-78f43fd1e378")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 166.9557 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(no_connect
+		(at 140.97 113.03)
+		(uuid "63869750-c301-43b0-b8a2-33f4b96a798f")
 	)
 
 
@@ -5876,7 +5956,7 @@
 				(hide yes)
 			)
 		)
-		(property "MF" "Samsung Electro-Mechanics"
+		(property "MF" "Generic"
 			(at 76.2 38.1 0)
 			(effects
 				(font
@@ -6016,7 +6096,7 @@
 				(hide yes)
 			)
 		)
-		(property "MP" "CL05A104KA5NNNC"
+		(property "MP" ""
 			(at 76.2 38.1 0)
 			(effects
 				(font
@@ -7400,9 +7480,9 @@
 		(at 148.59 115.57 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(dnp yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6a4af8c9-8429-4522-b8ab-a3db610dce3a")
 		(property "Reference" "S1"
@@ -7413,7 +7493,7 @@
 				)
 			)
 		)
-		(property "Value" "MSK12C02 (DNP - bypassed for prototype v1)"
+		(property "Value" "SPDT slide power switch PCM12"
 			(at 148.59 110.49 0)
 			(effects
 				(font
@@ -7449,7 +7529,7 @@
 				(hide yes)
 			)
 		)
-		(property "MF" "Littelfuse/C&K"
+		(property "MF" "Generic"
 			(at 148.59 115.57 0)
 			(effects
 				(font
@@ -7459,7 +7539,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description_1" "Sub-Miniature Slide Switch-DPDT-0.3A@6VDC-Surface Mount-5,000 Cycles"
+		(property "Description_1" "Low-profile SPDT slide switch for user ON/OFF battery power, PCM12 footprint"
 			(at 148.59 115.57 0)
 			(effects
 				(font
@@ -7509,7 +7589,7 @@
 				(hide yes)
 			)
 		)
-		(property "MP" "JS102011SAQN"
+		(property "MP" ""
 			(at 148.59 115.57 0)
 			(effects
 				(font
@@ -7529,7 +7609,7 @@
 				(hide yes)
 			)
 		)
-		(property "MANUFACTURER" "C&K"
+		(property "MANUFACTURER" "Generic"
 			(at 148.59 115.57 0)
 			(effects
 				(font
@@ -8499,7 +8579,7 @@
 				(hide yes)
 			)
 		)
-		(property "MF" "Samsung Electro-Mechanics"
+		(property "MF" "Generic"
 			(at 33.02 38.1 0)
 			(effects
 				(font
@@ -8639,7 +8719,7 @@
 				(hide yes)
 			)
 		)
-		(property "MP" "CL05A104KA5NNNC"
+		(property "MP" ""
 			(at 33.02 38.1 0)
 			(effects
 				(font
@@ -8821,7 +8901,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VBAT"
+		(property "Value" "VBAT_RAW"
 			(at 119.634 82.55 90)
 			(effects
 				(font
@@ -9849,7 +9929,7 @@
 				(hide yes)
 			)
 		)
-		(property "MF" "Samsung Electro-Mechanics"
+		(property "MF" "Generic"
 			(at 54.61 35.56 0)
 			(effects
 				(font
@@ -9989,7 +10069,7 @@
 				(hide yes)
 			)
 		)
-		(property "MP" "CL05A104KA5NNNC"
+		(property "MP" ""
 			(at 54.61 35.56 0)
 			(effects
 				(font

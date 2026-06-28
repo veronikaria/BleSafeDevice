@@ -1,0 +1,16 @@
+Comment,Designator,Footprint,LCSC Part #,Manufacturer,MPN
+3002,BT1,Keystone-3002:BAT_3002,,Keystone Electronics Corp.,3002
+100uF 6.3V,C1,Capacitor_SMD:C_1210_3225Metric,,,GRM31CR60J107MEA8K
+10uF 6.3V,C2,Capacitor_SMD:C_0805_2012Metric,,,GRM188R60J106ME47D
+100nF 25V,C3,Capacitor_SMD:C_0603_1608Metric,,Generic,
+100nF 25V,C4,Capacitor_SMD:C_0603_1608Metric,,Generic,
+100nF 25V,C5,Capacitor_SMD:C_0603_1608Metric,,Generic,
+47nF,C8,Capacitor_SMD:C_0603_1608Metric,,,
+Red LED 0603,D1,SafeGuardPing_Local:LED_0603_1608Metric_Red_Generic,,Generic,
+PESD5V0S1UL,D3,Diode_SMD:D_SOD-882,,,
+1k,R1,Resistor_SMD:R_0603_1608Metric,,Generic,
+47,R7,Resistor_SMD:R_0603_1608Metric,,Generic,
+330k,R8,Resistor_SMD:R_0603_1608Metric,,Generic,
+SPDT slide power switch PCM12,S1,Button_Switch_SMD:SW_SPDT_PCM12,,Generic,
+PTS526SK15SMTR2 LFS,SW1,SafeGuardPing_Local:SW_Push_1P1T_NO_CK_PTS526SK15SMTR2_LFS,,,PTS526SK15SMTR2 LFS
+DA14531MOD-00F01002,U4,myparts:XCVR_DA14531MOD-00F01002,,Dialog Semiconductor GmbH,DA14531MOD-00F01002
