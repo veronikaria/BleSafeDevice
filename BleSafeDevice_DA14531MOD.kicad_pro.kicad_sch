@@ -7722,7 +7722,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+		(property "Footprint" "SafeGuardPing_Local:TP_1x02_1.27mm_Compact"
 			(at 257.81 38.1 0)
 			(effects
 				(font
@@ -7790,7 +7790,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+		(property "Footprint" "SafeGuardPing_Local:TP_Current_Jumper_2Pad_Compact"
 			(at 237.49 38.1 0)
 			(effects
 				(font
@@ -8804,7 +8804,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Conn_01x04"
+		(property "Value" "SWD_DEBUG_PADS"
 			(at 212.09 36.8299 0)
 			(effects
 				(font
@@ -8813,7 +8813,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
+		(property "Footprint" "SafeGuardPing_Local:TP_SWD_1x04_1.27mm_Compact"
 			(at 209.55 34.29 0)
 			(effects
 				(font
