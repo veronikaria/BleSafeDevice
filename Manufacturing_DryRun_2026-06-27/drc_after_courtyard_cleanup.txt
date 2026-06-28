@@ -1,0 +1,55 @@
+** Drc report for BleSafeDevice_DA14531MOD.kicad_pro.kicad_pcb **
+** Created on 2026-06-28T12:21:19-0600 **
+
+** Found 11 DRC violations **
+[lib_footprint_issues]: The current configuration does not include the footprint library 'Diode_SMD'.
+    Local override; warning
+    @(101.6000 mm, 118.6000 mm): Footprint D3
+[lib_footprint_issues]: The current configuration does not include the footprint library 'Capacitor_SMD'.
+    Local override; warning
+    @(121.5000 mm, 111.5000 mm): Footprint C1
+[lib_footprint_issues]: The current configuration does not include the footprint library 'Capacitor_SMD'.
+    Local override; warning
+    @(131.0000 mm, 110.1000 mm): Footprint C3
+[lib_footprint_issues]: The current configuration does not include the footprint library 'Resistor_SMD'.
+    Local override; warning
+    @(103.8000 mm, 117.1000 mm): Footprint R7
+[lib_footprint_issues]: The current configuration does not include the footprint library 'Resistor_SMD'.
+    Local override; warning
+    @(106.8000 mm, 115.0000 mm): Footprint R8
+[lib_footprint_issues]: The current configuration does not include the footprint library 'Capacitor_SMD'.
+    Local override; warning
+    @(100.2000 mm, 114.2000 mm): Footprint C8
+[lib_footprint_mismatch]: Footprint 'SW_Push_1P1T_NO_CK_PTS526SK15SMTR2_LFS' does not match copy in library 'SafeGuardPing_Local'.
+    Local override; warning
+    @(106.2000 mm, 121.0000 mm): Footprint SW1
+[lib_footprint_issues]: The current configuration does not include the footprint library 'Capacitor_SMD'.
+    Local override; warning
+    @(117.0000 mm, 112.2750 mm): Footprint C5
+[lib_footprint_issues]: The current configuration does not include the footprint library 'Resistor_SMD'.
+    Local override; warning
+    @(103.8000 mm, 112.6000 mm): Footprint R1
+[lib_footprint_issues]: The current configuration does not include the footprint library 'Capacitor_SMD'.
+    Local override; warning
+    @(131.0000 mm, 113.4000 mm): Footprint C4
+[lib_footprint_issues]: The current configuration does not include the footprint library 'Capacitor_SMD'.
+    Local override; warning
+    @(113.5000 mm, 111.5000 mm): Footprint C2
+
+** Found 0 unconnected pads **
+
+** Found 4 Footprint errors **
+[net_conflict]: Pad missing net given by schematic (Net-(D1-GK)).
+    Local override; warning
+    @(105.9750 mm, 112.4250 mm): Pad 3 [<no net>] of D1 on Front
+[net_conflict]: Pad missing net given by schematic (Net-(D1-BK)).
+    Local override; warning
+    @(105.9750 mm, 111.5750 mm): Pad 4 [<no net>] of D1 on Front
+[net_conflict]: Pad missing net given by schematic (unconnected-(U4-P0_6-PadJ5)).
+    Local override; warning
+    @(123.2500 mm, 117.0000 mm): Pad J5 [<no net>] of U4 on Front
+[net_conflict]: Pad missing net given by schematic (unconnected-(U4-P0_7-PadJ13)).
+    Local override; warning
+    @(111.7500 mm, 118.5000 mm): Pad J13 [<no net>] of U4 on Front
+
+** End of Report **
